@@ -1,0 +1,6 @@
+Match group sftp
+ChrootDirectory /home
+X11Forwarding no
+AllowTcpForwarding no
+ForceCommand internal-sftp
+LogLevel VERBOSE
